@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Portfolio</title>
+   <link rel="stylesheet" href="Assets/Styles/portfolio.css" />
+ </head>
+ <body>
+   <nav class="navbar" id="navbar">
+     <a href="index.html">
+       <img src="Assets/navilogo.webp" alt="phoenix" class="logo" />
+     </a>
+     <ul class="nav-links">
+       <li><a href="choose.html">Home</a></li>
+       <li><a href="resume.html">Resume</a></li>
+       <li><a href="project.html">Projects</a></li>
+       <li><a href="hire.html">Hire Me</a></li>
+     </ul>
+   </nav>
+ 
+   <section class="intro-section">
+     <div class="intro-text">
+       <h1>Hi, I'm Abiskar</h1>
+       <p>
+         I’m a Bachelor’s student in Information Management with a passion for tech and creativity.
+         I code in Java, HTML, CSS, JavaScript, Python, and C. I’ve worked on AI/ML,
+         and beyond that — I can play football,basketball,volleyball.
+         I also work as an assistance of accountant…
+       </p>
+       <div class="resume-button-wrapper">
+         <a href="resume.html" class="resume-button no-image">
+           <span class="resume-icon">▶</span>
+           <span class="resume-text">Resume</span>
+         </a>
+ 
+         <a href="https://github.com/noeldondai" target="_blank" class="github-button">
+           <div class="info-icon">i</div>
+           <span class="github-text">GitHub</span>
+         </a>
+         
+       </div>
+      
+       
+     </div>
+   </section>
+ 
+   
+ 
+   <section class="top-pick-section">
+     <h2>Today's Top Pick for Mr. Shrestha</h2>
+ 
+    
+     
+     <div class="buttons-container">
+       <a href="skill.html" class="button">
+         <img src="Assets/tresume.png" alt="Skills" class="button-image" />
+         <span class="button-text">Skills</span>
+       </a>
+       <a href="certification.html" class="button">
+         <img src="Assets/tresume.png" alt="Certifications" class="button-image" />
+         <span class="button-text">Certifications</span>
+       </a>
+       <a href="experience.html" class="button">
+         <img src="Assets/tresume.png" alt="Experience" class="button-image" />
+         <span class="button-text">Experience</span>
+       </a>
+       <a href="project.html" class="button">
+         <img src="Assets/tresume.png" alt="Projects" class="button-image" />
+         <span class="button-text">Projects</span>
+       </a>
+       <a href="recomendation.html" class="button">
+         <img src="Assets/tresume.png" alt="Recommendations" class="button-image" />
+         <span class="button-text">Recommendations</span>
+       </a>
+       <a href="contact.html" class="button">
+         <img src="Assets/tresume.png" alt="Contact Me" class="button-image" />
+         <span class="button-text">Contact Me</span>
+       </a>
+     </div>
+   </section>
+ 
+   <script>
+     window.addEventListener("scroll", function () {
+       const navbar = document.querySelector(".navbar");
+       navbar.classList.toggle("scrolled", window.scrollY > 50);
+     });
+   </script>
+ </body>
+ </html>
